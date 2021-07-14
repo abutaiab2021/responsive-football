@@ -208,24 +208,52 @@ main{
    media queries 
 ----------------*/
 
-
 /* for mobile */
 @media only screen and (max-width:688px) {
     
     .container{
         width: 100%;
     }
-    .topnav{
-        display: flex;
-        flex-wrap: wrap;
-        
+    header {
+        background-color: #2D25A0;
+        width: 100%;
     }
-    .banner{
+    .banner-info {
+        color: #ffffff;
+        margin-left: 5px;
+    }
+    .players,.banner,.highlights,.topnav{
         grid-template-columns: repeat(1,1fr);
     }
-    .banner{
+    .banner,.highlights{
         flex-direction: column;
     } 
+
+    .highlights-info p {
+        position: relative;
+        margin-top: -40px;
+        text-align: justify;
+        margin-left: 101px;
+    }
+
+    .highlights-info h1 {
+        font-size: 45px;
+        margin-left: 107px;
+    }
+
+    .banner-button {
+        background-color: #E02C6D;
+        width: 150px;
+        height: 44px;
+        margin-left: 101px;
+        border: 0px;
+        color: #ffffff;
+    }
+
+    .footer-countainer {
+        margin-left: 0px;
+    }
+
 }
 
 /* end */
@@ -236,13 +264,48 @@ main{
     .container{
         width: 100%;
     }
-    .players,.courses{
+    header {
+        background-color: #2D25A0;
+        width: 100%;
+    }
+    .banner-info {
+        color: #ffffff;
+        margin-left: 5px;
+    }
+    .players,.banner,.highlights,.topnav{
         grid-template-columns: repeat(2,1fr);
     }
-    .blogs{
-        grid-template-columns: repeat(1,1fr);
+    .banner,.highlights{
+        flex-direction: column;
+    } 
+
+    .highlights-info p {
+        position: relative;
+        margin-top: -40px;
+        text-align: justify;
+        margin-left: 101px;
     }
-    
+
+    .highlights-info h1 {
+        font-size: 45px;
+        margin-left: 107px;
+    }
+
+    .banner-button {
+        background-color: #E02C6D;
+        width: 150px;
+        height: 44px;
+        margin-left: 101px;
+        border: 0px;
+        color: #ffffff;
+    }
+
+    .footer-countainer {
+        margin-left: 0px;
+    }
+
 }
+
+/* end */
 
 
